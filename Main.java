@@ -1,5 +1,10 @@
-public class Main{
-	public static void main(String [] agrs){
-		System.out.println("Hello World");
-	}
+package F2Binary;
+public class Main extends Cube{
+
+    public static void main(String[] args) {
+        Cube cube = new Cube();
+        cube.printMatrix();
+        System.out.println("--------------------------------------");
+        cube.fPrimeTransform();
+    }
 }
